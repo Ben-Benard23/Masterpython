@@ -6,7 +6,7 @@
 numbers = (1, 2, 3)
 names = ['Ben', 'Jones', 'showmik'] #this is a list
 fruits = ('apple', 'banana', 'orange')
-my_tuple = (10, 20, 30, {"name": "Bens", "age": 22},
+my_tuple = (10, 20, 30, {"name": "Benard", "age": 22},
             ['car', 'bike', 'bus'], 10)
 
 # print tuples
