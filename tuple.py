@@ -20,7 +20,7 @@ my_tuple = (10, 20, 30, {"name": "Benard", "age": 22},
 # names[1]= "John" # this will work for a list and not a tuple
 # print(names)
 
-# access tuple items
+# access tuple item
 # print('\n# access tuple items')
 # print(names[0])
 # print(numbers[1])
