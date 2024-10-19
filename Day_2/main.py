@@ -58,24 +58,99 @@ input and displays the information back to the user
 # height = float(height)
 # print (" My height is: ", height, "feet")
 
-"""Error Handling
-There are three main types of errors in Python
--Synthax Errors
--Runtime errors
--Logical Errors"""
- #try and except example
+# """Error Handling
+# There are three main types of errors in Python
+# -Synthax Errors
+# -Runtime errors
+# -Logical Errors"""
+#  #try and except example
  
-try:
-    name = input("Please provide your name:  ")
-    print("My name is: ", name)
+# try:
+#     name = input("Please provide your name:  ")
+#     print("My name is: ", name)
 
-    age = input("Please enter your age: ")
-    age = int(age)
-    print("My age is: ", age)
+#     age = input("Please enter your age: ")
+#     age = int(age)
+#     print("My age is: ", age)
 
-    height = input("Please provide your height: ")
-    height = float(height)
-    print (" My height is: ", height, "feet")
-except ValueError: 
-    print("You enter an invalid value")
-    print ("Try again")
+#     height = input("Please provide your height: ")
+#     height = float(height)
+#     print (" My height is: ", height, "feet")
+# except ValueError: 
+#     print("You enter an invalid value")
+#     print ("Try again")
+
+# rate = input("Please enter your rate:  ")
+# try:
+#     rate = float(rate)
+#     print("my Rate is:", rate)
+# except ValueError:
+#     print("You entered a wrong value")
+#     print("Try again")
+    
+    
+    
+# try:
+#     name = input("Please provide your name:  ")
+#     print("My name is: ", name)
+
+#     age = input("Please enter your age: ")
+#     age = int(age)
+#     print("My age is: ", age)
+
+#     height = input("Please provide your height: ")
+#     height = float(height)
+#     print (" My height is: ", height, "feet")
+# except ValueError: 
+#     print("You enter an invalid value")
+#     print ("Try again")
+# except KeyboardInterrupt:
+#     print("Goodbye")
+""" In case you anticipates an error but you do
+not know the error you can use the try and except as follows
+"""
+# try:
+#     rate = input("Please provide your rate: ")
+#     rate = float(rate)
+#     print (rate)
+#     Print("Benard")
+# except ValueError:
+#     print("You entered an invalid value")
+#     print("Try again")
+# except:
+#     print("something went wrong")
+    
+"""
+If you anticipates an error and you want to know the error
+then the code will be as follows at the level of the except and you will capture your error without a 
+stack trace(the long path)
+"""
+# try:
+#     rate = input("Please provide your rate: ")
+#     rate = float(rate)
+#     print (rate)
+#     Print("Benard")
+# except ValueError:
+#     print("You entered an invalid value")
+#     print("Try again")
+# except Exception as e:
+#     print("something went wrong")
+#     print(e)
+    
+# """
+# The use of finally
+# Finally is used to conclude the code where all the exceptions have been handled and the try block runs.
+# If all exceptions are not handled , the finally will not run"""    
+# try:
+#     rate = input("Please provide your rate: ")
+#     rate = float(rate)
+#     print (rate)
+#     Print("Benard")
+# except ValueError:
+#     print("You entered an invalid value")
+#     print("Try again")
+# except Exception as e:
+#     print("something went wrong")
+#     print(e)
+# finally:
+#     print("Thanks and goodbye")
