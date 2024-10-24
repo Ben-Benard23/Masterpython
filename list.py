@@ -7,9 +7,17 @@
 
 # list variables
 fruits = ["banana", "apple", "watermelon", "kiwi", "grapes"]
+# print(fruits)
+
 prices = ["$100", "$150", "$10.50"]
+
 numbers = [1, 2, 3, 4, 5]
+
 my_list = [1, "car", 10.40, True]
+print(fruits, 
+      prices, 
+      numbers,
+      my_list)
 
 
 # printing the list items

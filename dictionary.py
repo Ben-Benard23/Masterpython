@@ -4,15 +4,44 @@
 The value could be an integer, a list, a float, a string
 """
 
-student = {"name": "Benard", "age": "25 years", "college": "abc-college"}
-fruits = {"apple": 5, "banana": 3.50, "watermelon": 2.75}
-friends = {"class-1": ["david", "ricci"], "class-2": ["john", "matheus"]}
+# student = {
+#     "name": "Benard",
+#     "age": "25 years", 
+#     "college":"abc-college"
+#     }, 
+
+# print (student)
+# Nested dictionary example
+nested_dict = {
+    'person1': {
+        'name': 'Alice',
+        'age': 30,
+        'job': 'Engineer'
+    },
+    'person2': {
+        'name': 'Bob',
+        'age': 25,
+        'job': 'Designer'
+    }
+}
+
+# Accessing values in a nested dictionary
+print(nested_dict['person1']['name'])  # Output: Alice
+print(nested_dict['person2']['job'])   # Output: Designer
+
+
+
+
+
+# fruits = {"apple": 5, "banana": 3.50, "watermelon": 2.75}
+# friends = {"class-1": ["david", "ricci"], "class-2": ["john", "matheus"]}
 
 # print dictionary
 # print('\n # print dictionary') # note that \n(newline character) means move to next line before printing
 # print(student)
 # print(fruits)
 # print(friends)
+
 
 # access dictionary items
 # print('\n #access dictionary' )
