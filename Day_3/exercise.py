@@ -32,13 +32,16 @@
 # over_time_pay = over_time_hours*over_time_rate
 # print(over_time_pay)
 
-# fruits = ["oranges", "pinapples", "apples", "grapes", "strawberries"]
-# for item in fruits:
-#     print(item)
-
-count = 0
-while count < 5:
-    print(count)
-    count += 1
-
+fruits = ["oranges", "pinapples", "apples", "grapes", "strawberries"]
+print (fruits[1])
+fruit = append("mango")
+# for fruit in fruits:
+#     if fruit == "pineaple":
+#     print(fruit)
     
+
+# count = 0
+# while count < 5:
+#     print(count)
+#     # count += 1
+#     count = count + 1
