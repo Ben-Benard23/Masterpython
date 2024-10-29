@@ -6,21 +6,28 @@
 
 
 # list variables
-fruits = ["banana", "apple", "watermelon", "kiwi", "grapes"]
+print('\n')
+fruits =["banana", "apple", "watermelon", "kiwi", "grapes"]
 # print(fruits)
+# print(fruits[2])
+# fruits[1] ="mango"
+# print(fruits)
+# print(fruits.replace("apple","mango")) # for strings
 
-prices = ["$100", "$150", "$10.50"]
+# print(fruits[-1])
+# print('\n# access a specific element in list')
+# print(fruits[2])
+# print(fruits[0])
+# print(fruits[-1])
+# print(fruits[-2])
 
-numbers = [1, 2, 3, 4, 5]
+# prices = ["$100", "$150", "$10.50"]
 
-my_list = [1, "car", 10.40, True]
-print(fruits, 
-      prices, 
-      numbers,
-      my_list)
+# numbers = [1, 2, 3, 4, 5]
 
 
-# printing the list items
+
+#printing the list items
 # print('\n# printing the list items')
 # print(fruits, id(fruits)) #id(fruits) ,python gives the memory address on ur local where the friuts is stored
 # print(prices, id(prices))
@@ -69,6 +76,9 @@ However if the start orn the ends are not indicated they are inclusive
 print(numbers[:2])
 print(numbers[2:])
 """
+# school = "university"
+# department = (school[:])
+# print(department)
 
 # print('\n# slicing lists')
 # print(fruits[0:2]) 
@@ -96,15 +106,15 @@ print(numbers[2:])
 .sort(list) to sort a list
 """
 
-# # append items to existing list
-# print('\n# append() method')
-# fruits.append("mango")
-# print(fruits)
+# append items to existing list
+print('\n# append() method')
+fruits.append("mango")
+print(fruits)
 
-# # # insert item at a particular index
-# print('\n# insert item at a particular index')
-# fruits.insert(2,'grapes')
-# print(fruits)
+# # insert item at a particular index
+print('\n# insert item at a particular index')
+fruits.insert(2,'pear')
+print(fruits)
 
 # # remove an item from the list
 # print('\n# remove an item from the list')
