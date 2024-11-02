@@ -39,11 +39,17 @@
 # y=2
 # print(x+y) output is 3
 
-x=1
-y=2
-print("x+y") #output is x+y
+# x=1
+# y=2
+# print("x+y") #output is x+y
 
 # sutraction
 # multiplication
 # modulus you care only about the remender
 # floor division you are interested in the numerator/whole numbers
+
+
+    
+
+
+
